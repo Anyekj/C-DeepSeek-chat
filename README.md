@@ -6,6 +6,13 @@
 # DeepSeek 终端聊天工具
 一个基于DeepSeek API的终端对话工具，支持流式响应和深度搜索模式，提供实时的思考过程展示。
 
+# DeepSeek 官网
+https://www.deepseek.com/
+
+# api
+官方文档：https://api-docs.deepseek.com/zh-cn/
+官方api：https://platform.deepseek.com/
+
 ## 主要特性
 
 - 🌊 **流式响应** - 实时显示AI的思考过程和回答内容
