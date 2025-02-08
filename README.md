@@ -25,4 +25,4 @@ sudo yum install libcurl-devel
 # macOS (使用Homebrew)
 brew install curl
 
-反正就是curl库
+#反正就是curl库
