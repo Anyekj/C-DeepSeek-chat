@@ -7,7 +7,7 @@ const char *api_key = "<这里填写你的api_key>";
 
 typedef struct {
     char role[16];
-    char content[5120];
+    char content[10240];
 } Message;
 
 int deep_search_mode = 0;
@@ -246,7 +246,7 @@ char *get_api_response(Message *messages, int message_count) {
 int main() {
     Message messages[100];
     int message_count = 0;
-    char input[256];
+    char input[10240];
 
     printf("欢迎使用DeepSeek终端版\n");
     printf("作者：黯夜空間\n有帮助就给项目点点star吧\n");
